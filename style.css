@@ -1,0 +1,147 @@
+body {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.box-1 {
+    padding: 5em;
+    padding-bottom:
+    flex-wrap: nowrap;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/2516658/pexels-photo-2516658.jpeg) no-repeat 0 40%;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    text-align: center;
+    font-weight: 700;
+}
+
+.box-1 p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.5em;
+
+}
+.box-2 {
+    text-align: center;
+}
+
+.box-2 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.box-2a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 2em;
+
+    
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+
+.box-3 {
+    display: flex;
+
+    
+    background: rgb(68, 62, 62);
+    align-items: ;
+    padding: 1em;
+    justify-content: space-evenly;
+    padding-right: 400px;
+    padding-left: 400px;
+    flex-basis: 100%;
+    flex-wrap: inherit;
+}
+
+.box-3-box
+{
+    background: ivory;
+padding-bottom: 0.1em;
+display:grid;
+grid-auto-rows: minmax(50px, auto);
+justify-content: center;
+align-items: stretch;
+text-align: center;
+grid-column: 1/3;
+}
+
+.box-4-box {
+    background: ivory;
+    margin: 0.5em;
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    justify-content: unsafe;
+    align-items: stretch;
+    text-align: center;
+    grid-column: 1/3;
+}
+
+.box-5-box {
+    background: ivory;
+    margin: 0.5em;
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: ;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    grid-column: 3/3;
+}
+
+
+.box-3 p {
+    font-family: 'Slabo 27px', serif;
+    padding: 10px;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+
+}
+
+.box-4 p {
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.box-5 {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: inherit;
+    justify-items: center;
+    
+    margin: 0.5em;
+}
+ .box-5 h4 {
+     color: ivory ;
+     background: lightcoral;
+ }
+
+ .box-5a-box {
+     background: grey;
+     padding-bottom: 4em;
+ }
+
+ .box-5b-box {
+     background: rgb(108, 152, 209);
+ }
+
+ .box-5 p
+ {
+     font-family: cursive;
+     padding: 2em;
+     text-align: center;
+ }
+
+
