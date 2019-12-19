@@ -7,7 +7,18 @@ body {
     padding-bottom:
     flex-wrap: nowrap;
     text-align: center;
-    background: url(https://images.pexels.com/photos/2516658/pexels-photo-2516658.jpeg) no-repeat 0 40%;
+}
+
+.back-image {
+    background: url(https://images.pexels.com/photos/2516658/pexels-photo-2516658.jpeg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
 }
 
 
@@ -24,6 +35,7 @@ h1 {
 
 }
 .box-2 {
+    padding-top: 200px;
     text-align: center;
 }
 
@@ -46,60 +58,52 @@ h1 {
     font-size: 1em;
 }
 
-
+ 
 .box-3 {
-    display: flex;
-
     
-    background: rgb(68, 62, 62);
-    align-items: ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(50,auto);
+    background: rgb(138, 131, 132);
+    gap: 1em;
     padding: 1em;
-    justify-content: space-evenly;
-    padding-right: 400px;
-    padding-left: 400px;
-    flex-basis: 100%;
+    padding-right: 30rem;
+    padding-left: 30rem;
+    align-items: inherit;
+    justify-content:center;
     flex-wrap: inherit;
 }
+.body{
+    margin: 2em;
+    padding: 3em;
+}
 
-.box-3-box
-{
-    background: ivory;
-padding-bottom: 0.1em;
-display:grid;
-grid-auto-rows: minmax(50px, auto);
-justify-content: center;
-align-items: stretch;
+
+.box-3 div {
+    border: black solid 1px;
+    background: blanchedalmond;
+    text-align: center;
+
+}
+
+.box-3-box .box-4-box .box-5-box {
+
+display: grid;
+grid-auto-columns: minmax(50,auto);
+align-items: center;
 text-align: center;
-grid-column: 1/3;
 }
 
-.box-4-box {
-    background: ivory;
-    margin: 0.5em;
-    display: grid;
-    grid-auto-rows: minmax(50px, auto);
-    justify-content: unsafe;
-    align-items: stretch;
-    text-align: center;
-    grid-column: 1/3;
-}
-
-.box-5-box {
-    background: ivory;
-    margin: 0.5em;
-    display: grid;
-    grid-auto-rows: minmax(50px, auto);
-    grid-template-columns: ;
-    justify-content: center;
-    align-items: stretch;
-    text-align: center;
-    grid-column: 3/3;
+body{
+    margin: 2em;
+    padding: 3em;
 }
 
 
 .box-3 p {
     font-family: 'Slabo 27px', serif;
     padding: 10px;
+    font-size: 1em;
 }
 
 h4 {
@@ -108,7 +112,9 @@ h4 {
     text-align: center;
 
 }
-
+.box-4 {
+    padding-top: 100px;
+}
 .box-4 p {
     font-family: cursive;
     text-align: center;
@@ -144,4 +150,20 @@ h4 {
      text-align: center;
  }
 
+ @media (min-width: 800px) {
+
+.design {
+    display: grid;
+    grid-template-columns:  1fr;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+ }
 
